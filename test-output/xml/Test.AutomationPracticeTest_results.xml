@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutPractice"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="8.631">
+    <properties></properties>
+
+            <testcase
+                name="practiceTest"
+                time="8.631"
+                classname="Test.AutomationPracticeTest">
+
+            <failure type="org.openqa.selenium.WebDriverException" message="unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-4T0IJDO&apos;, ip: &apos;192.168.6.90&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19ec17e2b0b217898610959e48525e2a, clickElement {id=d15b9ad1-bfea-492e-b3e3-ae8c3134f73e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56215/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19ec17e2b0b217898610959e48525e2a)] -&gt; xpath: //*[@id=&quot;header&quot;]/div[2]/div/div/nav/div[1]/a]
+Session ID: 19ec17e2b0b217898610959e48525e2a">
+                <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-4T0IJDO', ip: '192.168.6.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19ec17e2b0b217898610959e48525e2a, clickElement {id=d15b9ad1-bfea-492e-b3e3-ae8c3134f73e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56215/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (19ec17e2b0b217898610959e48525e2a)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a]
+Session ID: 19ec17e2b0b217898610959e48525e2a
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)Page.BasePage.clickOnElement(BasePage.java:62)Page.RegistrationPage.findSignIn(RegistrationPage.java:16)Test.AutomationPracticeTest.practiceTest(AutomationPracticeTest.java:30)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>
